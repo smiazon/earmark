@@ -1,0 +1,18 @@
+{
+  "name": "earmark",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "ios:add": "npx cap add ios && sh scripts/ios-setup.sh",
+    "ios:sync": "npx cap sync ios",
+    "ios:open": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "8.5.3",
+    "@capacitor/ios": "8.5.3",
+    "@capacitor/haptics": "8.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3"
+  }
+}

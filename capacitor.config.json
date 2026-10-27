@@ -1,0 +1,6 @@
+{
+  "appId": "com.markgamboa.earmark",
+  "appName": "Earmark",
+  "webDir": "www",
+  "ios": { "contentInset": "never", "scrollEnabled": false, "backgroundColor": "#f1e7cf" }
+}
