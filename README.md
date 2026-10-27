@@ -9,11 +9,16 @@ A four-track recorder for iPhone, designed like a book page: cream paper, ink li
 - Light and Dark (sepia) themes
 - Recordings save on the device; share a mix or export a full project (`.earmark.zip`) and import it back
 
-The whole app is one file: `www/index.html`. iOS packaging uses [Capacitor](https://capacitorjs.com).
+The whole app is one file: `docs/index.html`. iOS packaging uses [Capacitor](https://capacitorjs.com).
+
+## Use it in Safari (GitHub Pages)
+
+Settings › Pages › Branch: `main`, folder: `/docs` › Save. The app appears at
+`https://YOUR-USERNAME.github.io/earmark/`. On iPhone: open it in Safari, then Share › Add to Home Screen.
 
 ## Run in a browser
 
-    cd www
+    cd docs
     python3 -m http.server 8000
 
 Open http://localhost:8000. The microphone works on `localhost` or any HTTPS host.
@@ -33,7 +38,7 @@ Free Apple ID builds expire after 7 days; press ▶ again to refresh.
 
 ## Making changes
 
-Edit `www/index.html`, then `npx cap sync ios` and run again from Xcode.
+Edit `docs/index.html`, then `npx cap sync ios` and run again from Xcode.
 
 ## Project files
 
